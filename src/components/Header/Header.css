@@ -1,0 +1,66 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('./header_image.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    padding-top: 10px;
+    bottom: 10%;;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+.header-contents h2{
+    font-weight: bold;
+    color: white;
+    font-size: max(4.0vw, 18px);
+    text-shadow:
+        3px 3px 0 black,
+        4px 3px 0 black,
+        4px 4px 0 black,
+        3px 4px 0 black; /* Creates a stroke effect */
+
+}
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black; /* Creates a stroke effect */
+}
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+@media (max-width = 1050px){
+    .header-contents{
+        max-width: 45%;
+    }
+}
+@media (max-width = 750px){
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
