@@ -22,10 +22,10 @@
     color: white;
     font-size: max(4.0vw, 18px);
     text-shadow:
+        2px 2px 0 black,
+        3px 2px 0 black,
         3px 3px 0 black,
-        4px 3px 0 black,
-        4px 4px 0 black,
-        3px 4px 0 black; /* Creates a stroke effect */
+        2px 3px 0 black; /* Creates a stroke effect */
 
 }
 .header-contents p{
