@@ -40,6 +40,7 @@ import food_27 from './food_27.png'
 import food_28 from './food_28.png'
 
 
+import red_chilly from './red_chilly.png'
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -75,7 +76,8 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    red_chilly
 }
 
 export const menu_list = [
